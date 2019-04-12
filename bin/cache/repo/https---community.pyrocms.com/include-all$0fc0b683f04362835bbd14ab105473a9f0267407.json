@@ -1,0 +1,2732 @@
+{
+    "packages": {
+        "emange/list-field_type": {
+            "1.0": {
+                "name": "emange/list-field_type",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/list-field_type.git",
+                    "reference": "1f76a2cddb9cbf3c8c7824f4a1295e16254dbf71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/list-field_type/get/1f76a2cddb9cbf3c8c7824f4a1295e16254dbf71.zip",
+                    "reference": "1f76a2cddb9cbf3c8c7824f4a1295e16254dbf71",
+                    "shasum": ""
+                },
+                "time": "2016-11-04T14:29:59+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\ListFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange.",
+                        "email": "edi@mange.biz",
+                        "homepage": "http://edi.mange.biz/",
+                        "role": "Owner"
+                    }
+                ],
+                "homepage": "http://pyrocms.com/",
+                "support": {
+                    "email": "edi@mange.biz",
+                    "source": "https://bitbucket.org/edsters/list-field_type/src/1f76a2cddb9cbf3c8c7824f4a1295e16254dbf71/?at=1.0",
+                    "issues": "https://bitbucket.org/edsters/list-field_type/issues"
+                }
+            },
+            "1.0.1": {
+                "name": "emange/list-field_type",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/list-field_type.git",
+                    "reference": "a8571e9821b676be944edbd8d34f7cce7b005d49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/list-field_type/get/a8571e9821b676be944edbd8d34f7cce7b005d49.zip",
+                    "reference": "a8571e9821b676be944edbd8d34f7cce7b005d49",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.2"
+                },
+                "time": "2018-01-11T17:24:23+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\ListFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange.",
+                        "email": "edi@mange.biz",
+                        "homepage": "http://edi.mange.biz/",
+                        "role": "Owner"
+                    }
+                ],
+                "homepage": "http://pyrocms.com/",
+                "support": {
+                    "email": "edi@mange.biz",
+                    "source": "https://bitbucket.org/edsters/list-field_type/src/a8571e9821b676be944edbd8d34f7cce7b005d49/?at=1.0.1",
+                    "issues": "https://bitbucket.org/edsters/list-field_type/issues"
+                }
+            },
+            "1.0.2": {
+                "name": "emange/list-field_type",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/list-field_type.git",
+                    "reference": "579284b5fa6c9b28963d7d43c78a2bebef7e583b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/list-field_type/get/579284b5fa6c9b28963d7d43c78a2bebef7e583b.zip",
+                    "reference": "579284b5fa6c9b28963d7d43c78a2bebef7e583b",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.2"
+                },
+                "time": "2019-01-27T21:01:50+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\ListFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange.",
+                        "email": "edi@mange.biz",
+                        "homepage": "http://edi.mange.biz/",
+                        "role": "Owner"
+                    }
+                ],
+                "homepage": "http://pyrocms.com/",
+                "support": {
+                    "email": "edi@mange.biz",
+                    "source": "https://bitbucket.org/edsters/list-field_type/src/579284b5fa6c9b28963d7d43c78a2bebef7e583b/?at=master",
+                    "issues": "https://bitbucket.org/edsters/list-field_type/issues"
+                }
+            },
+            "1.0.3": {
+                "name": "emange/list-field_type",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/list-field_type.git",
+                    "reference": "564934ab1a20cf550daab7d80cba4a7e3be9a22b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/list-field_type/get/564934ab1a20cf550daab7d80cba4a7e3be9a22b.zip",
+                    "reference": "564934ab1a20cf550daab7d80cba4a7e3be9a22b",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.2"
+                },
+                "time": "2019-01-31T22:28:52+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\ListFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange.",
+                        "email": "edi@mange.biz",
+                        "homepage": "http://edi.mange.biz/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "List Field Type. Create an array/list of text/textareas without a stream!",
+                "homepage": "https://edi.mange.biz/",
+                "keywords": [
+                    "field type",
+                    "streams module"
+                ],
+                "support": {
+                    "Website": "http://edi.mange.biz/",
+                    "source": "https://bitbucket.org/edsters/list-field_type/src/564934ab1a20cf550daab7d80cba4a7e3be9a22b/?at=1.0.3",
+                    "issues": "https://bitbucket.org/edsters/list-field_type/issues"
+                }
+            },
+            "dev-master": {
+                "name": "emange/list-field_type",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/list-field_type.git",
+                    "reference": "564934ab1a20cf550daab7d80cba4a7e3be9a22b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/list-field_type/get/564934ab1a20cf550daab7d80cba4a7e3be9a22b.zip",
+                    "reference": "564934ab1a20cf550daab7d80cba4a7e3be9a22b",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.2"
+                },
+                "time": "2019-01-31T22:28:52+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\ListFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange.",
+                        "email": "edi@mange.biz",
+                        "homepage": "http://edi.mange.biz/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "List Field Type. Create an array/list of text/textareas without a stream!",
+                "homepage": "https://edi.mange.biz/",
+                "keywords": [
+                    "field type",
+                    "streams module"
+                ],
+                "support": {
+                    "Website": "http://edi.mange.biz/",
+                    "source": "https://bitbucket.org/edsters/list-field_type/src/564934ab1a20cf550daab7d80cba4a7e3be9a22b/?at=1.0.3",
+                    "issues": "https://bitbucket.org/edsters/list-field_type/issues"
+                }
+            }
+        },
+        "emange/spaces_adapter-extension": {
+            "1.0": {
+                "name": "emange/spaces_adapter-extension",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/spaces_adapter-extension.git",
+                    "reference": "f52553663cf5df98436e3ff58dadadf6656f1297"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/spaces_adapter-extension/get/f52553663cf5df98436e3ff58dadadf6656f1297.zip",
+                    "reference": "f52553663cf5df98436e3ff58dadadf6656f1297",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/files-module": "^2.4",
+                    "league/flysystem-aws-s3-v3": "^1.0@dev"
+                },
+                "time": "2018-02-02T20:00:11+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\SpacesAdapterExtension\\": "src/",
+                        "League\\Flysystem\\AwsS3v3\\": "vendor/league/flysystem-aws-s3-v3/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange",
+                        "email": "edi@mange.biz",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Digital Ocean Spaces adapter for the Files module.",
+                "homepage": "http://edi.mange.biz/",
+                "keywords": [
+                    "extension",
+                    "files",
+                    "spaces",
+                    "streams platform"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/edsters/spaces_adapter-extension/src/f52553663cf5df98436e3ff58dadadf6656f1297/?at=1.0",
+                    "issues": "https://bitbucket.org/edsters/spaces_adapter-extension/issues"
+                }
+            },
+            "dev-master": {
+                "name": "emange/spaces_adapter-extension",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/edsters/spaces_adapter-extension.git",
+                    "reference": "f52553663cf5df98436e3ff58dadadf6656f1297"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://bitbucket.org/edsters/spaces_adapter-extension/get/f52553663cf5df98436e3ff58dadadf6656f1297.zip",
+                    "reference": "f52553663cf5df98436e3ff58dadadf6656f1297",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/files-module": "^2.4",
+                    "league/flysystem-aws-s3-v3": "^1.0@dev"
+                },
+                "time": "2018-02-02T20:00:11+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Emange\\SpacesAdapterExtension\\": "src/",
+                        "League\\Flysystem\\AwsS3v3\\": "vendor/league/flysystem-aws-s3-v3/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Emange",
+                        "email": "edi@mange.biz",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Digital Ocean Spaces adapter for the Files module.",
+                "homepage": "http://edi.mange.biz/",
+                "keywords": [
+                    "extension",
+                    "files",
+                    "spaces",
+                    "streams platform"
+                ],
+                "support": {
+                    "source": "https://bitbucket.org/edsters/spaces_adapter-extension/src/f52553663cf5df98436e3ff58dadadf6656f1297/?at=1.0",
+                    "issues": "https://bitbucket.org/edsters/spaces_adapter-extension/issues"
+                }
+            }
+        },
+        "newebtime/agency-theme": {
+            "0.0.1": {
+                "name": "newebtime/agency-theme",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/agency-theme.git",
+                    "reference": "806df170ceb599368ce0553cd8d2648b2f738458"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fagency-theme/repository/archive.zip?sha=806df170ceb599368ce0553cd8d2648b2f738458",
+                    "reference": "806df170ceb599368ce0553cd8d2648b2f738458",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-10-05T07:14:40+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\AgencyTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This theme is a basic HTML5 Bootstrap theme based on the Agency Theme from http://startbootstrap.com/template-overviews/agency/",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "bootstrap",
+                    "pyrocms",
+                    "streams",
+                    "theme"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "0.0.2": {
+                "name": "newebtime/agency-theme",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/agency-theme.git",
+                    "reference": "c84f1eb0db788d64c9d60e87b7e371af440e7a2c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fagency-theme/repository/archive.zip?sha=c84f1eb0db788d64c9d60e87b7e371af440e7a2c",
+                    "reference": "c84f1eb0db788d64c9d60e87b7e371af440e7a2c",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-21T03:18:44+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\AgencyTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This theme is a basic HTML5 Bootstrap theme based on the Agency Theme from http://startbootstrap.com/template-overviews/agency/",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "bootstrap",
+                    "pyrocms",
+                    "streams",
+                    "theme"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "0.0.3": {
+                "name": "newebtime/agency-theme",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/agency-theme.git",
+                    "reference": "83d89932a6deed09c82fcfcc9aba0e76623e85c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fagency-theme/repository/archive.zip?sha=83d89932a6deed09c82fcfcc9aba0e76623e85c9",
+                    "reference": "83d89932a6deed09c82fcfcc9aba0e76623e85c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-22T08:25:59+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\AgencyTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This theme is a basic HTML5 Bootstrap theme based on the Agency Theme from http://startbootstrap.com/template-overviews/agency/",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "bootstrap",
+                    "pyrocms",
+                    "streams",
+                    "theme"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.0": {
+                "name": "newebtime/agency-theme",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/agency-theme.git",
+                    "reference": "3ec24ed8cf2d08f0281d1df872e92287677f1d1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fagency-theme/repository/archive.zip?sha=3ec24ed8cf2d08f0281d1df872e92287677f1d1a",
+                    "reference": "3ec24ed8cf2d08f0281d1df872e92287677f1d1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-23T08:20:07+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\AgencyTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This theme is a basic HTML5 Bootstrap theme based on the Agency Theme from http://startbootstrap.com/template-overviews/agency/",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "bootstrap",
+                    "pyrocms",
+                    "streams",
+                    "theme"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "dev-master": {
+                "name": "newebtime/agency-theme",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/agency-theme.git",
+                    "reference": "3ec24ed8cf2d08f0281d1df872e92287677f1d1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fagency-theme/repository/archive.zip?sha=3ec24ed8cf2d08f0281d1df872e92287677f1d1a",
+                    "reference": "3ec24ed8cf2d08f0281d1df872e92287677f1d1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-23T08:20:07+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\AgencyTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "This theme is a basic HTML5 Bootstrap theme based on the Agency Theme from http://startbootstrap.com/template-overviews/agency/",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "bootstrap",
+                    "pyrocms",
+                    "streams",
+                    "theme"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            }
+        },
+        "newebtime/joomlamigrator-module": {
+            "1.0.0": {
+                "name": "newebtime/joomlamigrator-module",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/joomlamigrator-module.git",
+                    "reference": "9b289da8d7b9941aef6f55a4a71d70308e308333"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fjoomlamigrator-module/repository/archive.zip?sha=9b289da8d7b9941aef6f55a4a71d70308e308333",
+                    "reference": "9b289da8d7b9941aef6f55a4a71d70308e308333",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-11-13T09:55:57+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\JoomlamigratorModule\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Migrate a Joomla! database to PyroCMS",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "joomla",
+                    "migration",
+                    "module",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.1": {
+                "name": "newebtime/joomlamigrator-module",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/joomlamigrator-module.git",
+                    "reference": "4991e93a676f186f8fde7cbf509870d98b2a3eb2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fjoomlamigrator-module/repository/archive.zip?sha=4991e93a676f186f8fde7cbf509870d98b2a3eb2",
+                    "reference": "4991e93a676f186f8fde7cbf509870d98b2a3eb2",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-11-14T15:44:14+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\JoomlamigratorModule\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Migrate a Joomla! database to PyroCMS",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "joomla",
+                    "migration",
+                    "module",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "dev-master": {
+                "name": "newebtime/joomlamigrator-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/joomlamigrator-module.git",
+                    "reference": "4991e93a676f186f8fde7cbf509870d98b2a3eb2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fjoomlamigrator-module/repository/archive.zip?sha=4991e93a676f186f8fde7cbf509870d98b2a3eb2",
+                    "reference": "4991e93a676f186f8fde7cbf509870d98b2a3eb2",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-11-14T15:44:14+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\JoomlamigratorModule\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Migrate a Joomla! database to PyroCMS",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "joomla",
+                    "migration",
+                    "module",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            }
+        },
+        "newebtime/localization-extension": {
+            "1.0.0": {
+                "name": "newebtime/localization-extension",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/localization-extension.git",
+                    "reference": "9fb03162596b5df08eed3876a4a9db34f93cb276"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Flocalization-extension/repository/archive.zip?sha=9fb03162596b5df08eed3876a4a9db34f93cb276",
+                    "reference": "9fb03162596b5df08eed3876a4a9db34f93cb276",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3",
+                    "propaganistas/laravel-intl": "^2.1"
+                },
+                "time": "2018-11-09T06:50:28+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\LocalizationExtension\\": "src/",
+                        "Newebtime\\CurrencyFieldType\\": "addons/newebtime/currency-field_type/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Intl extension for PyroCMS and Streams Platform",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "extension",
+                    "intl",
+                    "localization",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.1.0": {
+                "name": "newebtime/localization-extension",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/localization-extension.git",
+                    "reference": "295d17c75831e10375a61a089e557ac3e106f19a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Flocalization-extension/repository/archive.zip?sha=295d17c75831e10375a61a089e557ac3e106f19a",
+                    "reference": "295d17c75831e10375a61a089e557ac3e106f19a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3",
+                    "propaganistas/laravel-intl": "^2.1"
+                },
+                "time": "2018-11-13T07:37:04+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\LocalizationExtension\\": "src/",
+                        "Newebtime\\MoneyFieldType\\": "addons/newebtime/money-field_type/src/",
+                        "Newebtime\\CurrencyFieldType\\": "addons/newebtime/currency-field_type/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Intl extension for PyroCMS and Streams Platform",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "extension",
+                    "intl",
+                    "localization",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "dev-master": {
+                "name": "newebtime/localization-extension",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/localization-extension.git",
+                    "reference": "295d17c75831e10375a61a089e557ac3e106f19a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Flocalization-extension/repository/archive.zip?sha=295d17c75831e10375a61a089e557ac3e106f19a",
+                    "reference": "295d17c75831e10375a61a089e557ac3e106f19a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3",
+                    "propaganistas/laravel-intl": "^2.1"
+                },
+                "time": "2018-11-13T07:37:04+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\LocalizationExtension\\": "src/",
+                        "Newebtime\\MoneyFieldType\\": "addons/newebtime/money-field_type/src/",
+                        "Newebtime\\CurrencyFieldType\\": "addons/newebtime/currency-field_type/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Intl extension for PyroCMS and Streams Platform",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "extension",
+                    "intl",
+                    "localization",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            }
+        },
+        "newebtime/portfolio-module": {
+            "1.0.0": {
+                "name": "newebtime/portfolio-module",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "0faf4397ac733de4c1bd58a7939d2f8664d49122"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=0faf4397ac733de4c1bd58a7939d2f8664d49122",
+                    "reference": "0faf4397ac733de4c1bd58a7939d2f8664d49122",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-09-28T06:49:47+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.1": {
+                "name": "newebtime/portfolio-module",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "b0f6fa77cb9ca50f84a6c7f787130a4e1c86fd70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=b0f6fa77cb9ca50f84a6c7f787130a4e1c86fd70",
+                    "reference": "b0f6fa77cb9ca50f84a6c7f787130a4e1c86fd70",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-27T08:41:08+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.2": {
+                "name": "newebtime/portfolio-module",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "76166a678bad79f47219fe82e754cb440cd352b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=76166a678bad79f47219fe82e754cb440cd352b6",
+                    "reference": "76166a678bad79f47219fe82e754cb440cd352b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-11-30T07:22:37+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.3": {
+                "name": "newebtime/portfolio-module",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "19387c377229555eb8fc2fba7e8d9a6ad5881c69"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=19387c377229555eb8fc2fba7e8d9a6ad5881c69",
+                    "reference": "19387c377229555eb8fc2fba7e8d9a6ad5881c69",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2019-01-09T13:44:47+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "1.0.4": {
+                "name": "newebtime/portfolio-module",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "8ae35c41ae1f5c589908b161b40b4bd0caf532a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=8ae35c41ae1f5c589908b161b40b4bd0caf532a9",
+                    "reference": "8ae35c41ae1f5c589908b161b40b4bd0caf532a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2019-02-08T10:20:57+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            },
+            "dev-master": {
+                "name": "newebtime/portfolio-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/newebtime/pyrocms/portfolio-module.git",
+                    "reference": "8ae35c41ae1f5c589908b161b40b4bd0caf532a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/newebtime%2Fpyrocms%2Fportfolio-module/repository/archive.zip?sha=8ae35c41ae1f5c589908b161b40b4bd0caf532a9",
+                    "reference": "8ae35c41ae1f5c589908b161b40b4bd0caf532a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2019-02-08T10:20:57+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Newebtime\\PortfolioModule\\": "src/",
+                        "Newebtime\\PortfolioLinkTypeExtension\\": "addons/newebtime/portfolio_link_type-extension/src/",
+                        "Newebtime\\PortfolioProjectsBlockExtension\\": "addons/newebtime/portfolio_projects_block-extension/src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Newebtime Co., Ltd.",
+                        "email": "support@newebtime.com",
+                        "homepage": "https://www.newebtime.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Frédéric Vandebeuque",
+                        "email": "fred.vdb@newebtime.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Manage portfolio projects and clients",
+                "homepage": "https://www.newebtime.com/",
+                "keywords": [
+                    "module",
+                    "portfolio",
+                    "pyrocms",
+                    "streams"
+                ],
+                "support": {
+                    "email": "support@newebtime.com"
+                }
+            }
+        },
+        "oimken/iconpicker-field_type": {
+            "dev-master": {
+                "name": "oimken/iconpicker-field_type",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/oimken/iconpicker-field_type.git",
+                    "reference": "996e16bffb39f6e445d0498c34e3d68d345ad6c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/oimken/iconpicker-field_type/zipball/996e16bffb39f6e445d0498c34e3d68d345ad6c3",
+                    "reference": "996e16bffb39f6e445d0498c34e3d68d345ad6c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "~1.3.0"
+                },
+                "time": "2018-02-02T19:57:21+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Oimken\\IconpickerFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PyroCMS, Inc.",
+                        "email": "support@pyrocms.com",
+                        "homepage": "http://pyrocms.com/",
+                        "role": "Owner"
+                    },
+                    {
+                        "name": "Ken Z",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A handy icon font picker, works great with font awesome and maybe other icon-Font.",
+                "homepage": "http://pyrocms.com/",
+                "keywords": [
+                    "field type",
+                    "font awesome",
+                    "icon picker"
+                ],
+                "support": {
+                    "source": "https://github.com/oimken/iconpicker-field_type/tree/master",
+                    "issues": "https://github.com/oimken/iconpicker-field_type/issues"
+                }
+            }
+        },
+        "pixney/hjortron-theme": {
+            "1.0.1": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "caf64ecd290cc0f57276aabb63d67492b4ee520d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/caf64ecd290cc0f57276aabb63d67492b4ee520d",
+                    "reference": "caf64ecd290cc0f57276aabb63d67492b4ee520d",
+                    "shasum": ""
+                },
+                "time": "2017-11-11T17:07:08+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.1",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.11": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "b344354b209ee1e8560a2271c7e88ea2cc41f47d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/b344354b209ee1e8560a2271c7e88ea2cc41f47d",
+                    "reference": "b344354b209ee1e8560a2271c7e88ea2cc41f47d",
+                    "shasum": ""
+                },
+                "time": "2017-11-11T22:32:44+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.11",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.12": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.12",
+                "version_normalized": "1.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "4722f68503068da6b863f5023b16be35d31bb4f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/4722f68503068da6b863f5023b16be35d31bb4f5",
+                    "reference": "4722f68503068da6b863f5023b16be35d31bb4f5",
+                    "shasum": ""
+                },
+                "time": "2017-11-11T22:37:21+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.12",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.13": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.13",
+                "version_normalized": "1.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "777aed2e4e01a21d50e9238697cba50c3278d1c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/777aed2e4e01a21d50e9238697cba50c3278d1c0",
+                    "reference": "777aed2e4e01a21d50e9238697cba50c3278d1c0",
+                    "shasum": ""
+                },
+                "time": "2017-11-11T23:40:19+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.13",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.14": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.14",
+                "version_normalized": "1.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "6f5f0289405b54eeb9ef3222b3ee594d1c27eedf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/6f5f0289405b54eeb9ef3222b3ee594d1c27eedf",
+                    "reference": "6f5f0289405b54eeb9ef3222b3ee594d1c27eedf",
+                    "shasum": ""
+                },
+                "time": "2017-11-12T01:12:49+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.14",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.15": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.15",
+                "version_normalized": "1.0.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "9a0a1d328cdad3aff0b93a6b8d75cc3802aea96d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/9a0a1d328cdad3aff0b93a6b8d75cc3802aea96d",
+                    "reference": "9a0a1d328cdad3aff0b93a6b8d75cc3802aea96d",
+                    "shasum": ""
+                },
+                "time": "2017-11-12T01:29:40+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.15",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.16": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.16",
+                "version_normalized": "1.0.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "0bcbbd491c4a4f917e682113dbc7e65c74b79d81"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/0bcbbd491c4a4f917e682113dbc7e65c74b79d81",
+                    "reference": "0bcbbd491c4a4f917e682113dbc7e65c74b79d81",
+                    "shasum": ""
+                },
+                "time": "2017-11-12T15:39:38+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.16",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.17": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.17",
+                "version_normalized": "1.0.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "a5f031b2d70cd1272bcdace17c0ec5708f2efd7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/a5f031b2d70cd1272bcdace17c0ec5708f2efd7b",
+                    "reference": "a5f031b2d70cd1272bcdace17c0ec5708f2efd7b",
+                    "shasum": ""
+                },
+                "time": "2017-11-12T20:40:08+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.17",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.18": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.18",
+                "version_normalized": "1.0.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "5b2c38d7e13b014d32ef09adcc01ef65bad36c4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/5b2c38d7e13b014d32ef09adcc01ef65bad36c4d",
+                    "reference": "5b2c38d7e13b014d32ef09adcc01ef65bad36c4d",
+                    "shasum": ""
+                },
+                "time": "2017-11-12T20:47:41+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.18",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.19": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.19",
+                "version_normalized": "1.0.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "7b5da189bd426d95e5e3345814b2c0be9bdffaac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/7b5da189bd426d95e5e3345814b2c0be9bdffaac",
+                    "reference": "7b5da189bd426d95e5e3345814b2c0be9bdffaac",
+                    "shasum": ""
+                },
+                "time": "2017-11-14T14:03:46+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.19",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.20": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.20",
+                "version_normalized": "1.0.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "dfc46f720610518e06ca9f831de48a27ee984750"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/dfc46f720610518e06ca9f831de48a27ee984750",
+                    "reference": "dfc46f720610518e06ca9f831de48a27ee984750",
+                    "shasum": ""
+                },
+                "time": "2017-11-14T14:30:58+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.20",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.21": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.21",
+                "version_normalized": "1.0.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "abd4566ed5953f84da032786bc9155b75cfe063a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/abd4566ed5953f84da032786bc9155b75cfe063a",
+                    "reference": "abd4566ed5953f84da032786bc9155b75cfe063a",
+                    "shasum": ""
+                },
+                "time": "2018-02-09T13:38:35+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.21",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.22": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.22",
+                "version_normalized": "1.0.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "ee8e039fc4d56e4df2831d2783b41b3d9f2ed4ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/ee8e039fc4d56e4df2831d2783b41b3d9f2ed4ee",
+                    "reference": "ee8e039fc4d56e4df2831d2783b41b3d9f2ed4ee",
+                    "shasum": ""
+                },
+                "time": "2018-02-09T14:23:48+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.22",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.23": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.23",
+                "version_normalized": "1.0.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "34ae713c2bc8742a3affb08919039037a5be6eaa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/34ae713c2bc8742a3affb08919039037a5be6eaa",
+                    "reference": "34ae713c2bc8742a3affb08919039037a5be6eaa",
+                    "shasum": ""
+                },
+                "time": "2018-02-09T14:33:21+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.23",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.24": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.24",
+                "version_normalized": "1.0.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "17f4cfa93f2fad663115e6b3ed02b6ed6ba5165d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/17f4cfa93f2fad663115e6b3ed02b6ed6ba5165d",
+                    "reference": "17f4cfa93f2fad663115e6b3ed02b6ed6ba5165d",
+                    "shasum": ""
+                },
+                "time": "2018-02-10T14:01:40+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.24",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.26": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.26",
+                "version_normalized": "1.0.26.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "510ae678311024fb9898a891677a0ee095232c75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/510ae678311024fb9898a891677a0ee095232c75",
+                    "reference": "510ae678311024fb9898a891677a0ee095232c75",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-02-19T16:18:54+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.26",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.27": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.27",
+                "version_normalized": "1.0.27.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "b3e0750f33029fe4c0c45db2e9d61ca07be2f5ae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/b3e0750f33029fe4c0c45db2e9d61ca07be2f5ae",
+                    "reference": "b3e0750f33029fe4c0c45db2e9d61ca07be2f5ae",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.3"
+                },
+                "time": "2018-03-30T07:58:52+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0.27",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.0.x-dev": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "3620eff53a4c3219a13c079f9344fb3dcbb53a23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/3620eff53a4c3219a13c079f9344fb3dcbb53a23",
+                    "reference": "3620eff53a4c3219a13c079f9344fb3dcbb53a23",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-23T15:11:00+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.0",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.4.01": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.4.01",
+                "version_normalized": "1.4.01.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "cda5e52909e8db97edfa52dd97ca0834f32503ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/cda5e52909e8db97edfa52dd97ca0834f32503ca",
+                    "reference": "cda5e52909e8db97edfa52dd97ca0834f32503ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-23T20:18:06+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.4.01",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.4.02": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.4.02",
+                "version_normalized": "1.4.02.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "d9f336fbb953a75c1782415a708d41edf3f2086a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/d9f336fbb953a75c1782415a708d41edf3f2086a",
+                    "reference": "d9f336fbb953a75c1782415a708d41edf3f2086a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-30T11:31:46+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/v1.4.03",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "v1.4.03": {
+                "name": "pixney/hjortron-theme",
+                "version": "v1.4.03",
+                "version_normalized": "1.4.03.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "d9f336fbb953a75c1782415a708d41edf3f2086a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/d9f336fbb953a75c1782415a708d41edf3f2086a",
+                    "reference": "d9f336fbb953a75c1782415a708d41edf3f2086a",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-30T11:31:46+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/v1.4.03",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "v1.4.04": {
+                "name": "pixney/hjortron-theme",
+                "version": "v1.4.04",
+                "version_normalized": "1.4.04.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "dab4fb4e1999fd1119fdbbdf7a2717d6a4c481a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/dab4fb4e1999fd1119fdbbdf7a2717d6a4c481a8",
+                    "reference": "dab4fb4e1999fd1119fdbbdf7a2717d6a4c481a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-31T08:46:59+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/v1.4.04",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.4.05": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.4.05",
+                "version_normalized": "1.4.05.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "e7651761ab6d23357faa414b4f00d08a3bfbeaa3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/e7651761ab6d23357faa414b4f00d08a3bfbeaa3",
+                    "reference": "e7651761ab6d23357faa414b4f00d08a3bfbeaa3",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-05-31T21:36:17+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.4.05",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            },
+            "1.4.x-dev": {
+                "name": "pixney/hjortron-theme",
+                "version": "1.4.x-dev",
+                "version_normalized": "1.4.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/hjortron-theme.git",
+                    "reference": "fbe2f9603df32dfb0e65fe362acd3f6e4076e4fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/hjortron-theme/zipball/fbe2f9603df32dfb0e65fe362acd3f6e4076e4fb",
+                    "reference": "fbe2f9603df32dfb0e65fe362acd3f6e4076e4fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "anomaly/streams-platform": "^1.4"
+                },
+                "time": "2018-12-09T12:40:20+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\HjortronTheme\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Pixney AB",
+                        "email": "william@pixney.com",
+                        "homepage": "https://pixney.com/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A Pyro LDP Administration theme created by Pixney.",
+                "homepage": "https://pixney.com/",
+                "keywords": [
+                    "addon",
+                    "cms",
+                    "laravel",
+                    "pixney",
+                    "pyrocms",
+                    "theme"
+                ],
+                "support": {
+                    "email": "hello@pixney.com",
+                    "source": "https://github.com/pixney/hjortron-theme/tree/1.4",
+                    "issues": "https://github.com/pixney/hjortron-theme/issues"
+                }
+            }
+        },
+        "pixney/matomo_widget-extension": {
+            "v0.0.1": {
+                "name": "pixney/matomo_widget-extension",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/matomo_widget-extension.git",
+                    "reference": "f1bb244bb4e1b28c75b4490bcadd2c0dd0a09df4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/matomo_widget-extension/zipball/f1bb244bb4e1b28c75b4490bcadd2c0dd0a09df4",
+                    "reference": "f1bb244bb4e1b28c75b4490bcadd2c0dd0a09df4",
+                    "shasum": ""
+                },
+                "time": "2019-01-24T19:59:50+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\MatomoWidgetExtension\\": "src/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/pixney/matomo_widget-extension/tree/v0.0.1",
+                    "issues": "https://github.com/pixney/matomo_widget-extension/issues"
+                }
+            },
+            "v0.0.2": {
+                "name": "pixney/matomo_widget-extension",
+                "version": "v0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/matomo_widget-extension.git",
+                    "reference": "7d2375805b3c15e7a40264225cc2d311ddb624c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/matomo_widget-extension/zipball/7d2375805b3c15e7a40264225cc2d311ddb624c8",
+                    "reference": "7d2375805b3c15e7a40264225cc2d311ddb624c8",
+                    "shasum": ""
+                },
+                "time": "2019-01-24T20:40:37+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\MatomoWidgetExtension\\": "src/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/pixney/matomo_widget-extension/tree/v0.0.2",
+                    "issues": "https://github.com/pixney/matomo_widget-extension/issues"
+                }
+            },
+            "dev-master": {
+                "name": "pixney/matomo_widget-extension",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pixney/matomo_widget-extension.git",
+                    "reference": "7d2375805b3c15e7a40264225cc2d311ddb624c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pixney/matomo_widget-extension/zipball/7d2375805b3c15e7a40264225cc2d311ddb624c8",
+                    "reference": "7d2375805b3c15e7a40264225cc2d311ddb624c8",
+                    "shasum": ""
+                },
+                "time": "2019-01-24T20:40:37+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Pixney\\MatomoWidgetExtension\\": "src/"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/pixney/matomo_widget-extension/tree/v0.0.2",
+                    "issues": "https://github.com/pixney/matomo_widget-extension/issues"
+                }
+            }
+        },
+        "redtally/signature-field_type": {
+            "v1.0.0": {
+                "name": "redtally/signature-field_type",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/redtally/signature-field_type.git",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/redtally%2Fsignature-field_type/repository/archive.zip?sha=8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "shasum": ""
+                },
+                "time": "2018-03-01T04:42:39+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Redtally\\SignatureFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Berry",
+                        "email": "craig@redtally.com.au",
+                        "homepage": "http://redtally.com.au/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A signature field type.",
+                "homepage": "http://redtally.com.au/",
+                "keywords": [
+                    "field type",
+                    "streams addon",
+                    "streams field type"
+                ]
+            },
+            "dev-master": {
+                "name": "redtally/signature-field_type",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/redtally/signature-field_type.git",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/redtally%2Fsignature-field_type/repository/archive.zip?sha=8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "shasum": ""
+                },
+                "time": "2018-03-01T04:42:39+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Redtally\\SignatureFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Berry",
+                        "email": "craig@redtally.com.au",
+                        "homepage": "http://redtally.com.au/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A signature field type.",
+                "homepage": "http://redtally.com.au/",
+                "keywords": [
+                    "field type",
+                    "streams addon",
+                    "streams field type"
+                ]
+            },
+            "dev-develop": {
+                "name": "redtally/signature-field_type",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.com/redtally/signature-field_type.git",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gitlab.com/api/v4/projects/redtally%2Fsignature-field_type/repository/archive.zip?sha=8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "reference": "8e16a2a48833c3b94f0cf1f8d21eae264d848774",
+                    "shasum": ""
+                },
+                "time": "2018-03-01T04:42:39+00:00",
+                "type": "streams-addon",
+                "autoload": {
+                    "psr-4": {
+                        "Redtally\\SignatureFieldType\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Berry",
+                        "email": "craig@redtally.com.au",
+                        "homepage": "http://redtally.com.au/",
+                        "role": "Owner"
+                    }
+                ],
+                "description": "A signature field type.",
+                "homepage": "http://redtally.com.au/",
+                "keywords": [
+                    "field type",
+                    "streams addon",
+                    "streams field type"
+                ]
+            }
+        }
+    }
+}

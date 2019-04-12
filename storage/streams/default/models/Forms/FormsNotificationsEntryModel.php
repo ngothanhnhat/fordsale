@@ -1,0 +1,550 @@
+<?php namespace Anomaly\Streams\Platform\Model\Forms;
+
+use Anomaly\Streams\Platform\Entry\EntryModel;
+
+class FormsNotificationsEntryModel extends EntryModel
+{
+
+    use \Illuminate\Database\Eloquent\SoftDeletes;
+
+    protected $searchable = false;
+
+    protected $versionable = false;
+
+    protected $table = 'forms_notifications';
+
+    protected $titleName = 'notification_name';
+
+    protected $rules = [
+        'notification_name' => 'required',
+        'notification_description' => '',
+        'notification_slug' => 'required|unique:forms_notifications,notification_slug',
+        'notification_email_layout' => '',
+        'notification_content' => 'required',
+        'notification_from_name' => 'required',
+        'notification_from_email' => 'required',
+        'notification_reply_to_name' => 'required',
+        'notification_reply_to_email' => 'required',
+        'notification_subject' => 'required',
+        'include_attachments' => '',
+];
+
+    protected $fields = [
+        'notification_name',
+        'notification_description',
+        'notification_slug',
+        'notification_email_layout',
+        'notification_content',
+        'notification_from_name',
+        'notification_from_email',
+        'notification_reply_to_name',
+        'notification_reply_to_email',
+        'notification_subject',
+        'include_attachments',
+];
+
+    protected $with = ["translations"];
+
+    protected $dates = ['created_at', 'updated_at', 'deleted_at'];
+
+    protected $relationships = [];
+
+    protected $translatedAttributes = ['notification_content', 'notification_from_name', 'notification_subject'];
+
+    protected $translationForeignKey = 'entry_id';
+
+    protected $translationModel = 'Anomaly\Streams\Platform\Model\Forms\FormsNotificationsEntryTranslationsModel';
+
+    protected $stream = [
+'id' => '64',
+'sort_order' => '',
+'namespace' => 'forms',
+'slug' => 'notifications',
+'prefix' => 'forms_',
+'title_column' => 'notification_name',
+'order_by' => 'id',
+'locked' => '0',
+'hidden' => '0',
+'sortable' => '0',
+'searchable' => '0',
+'trashable' => '1',
+'translatable' => '1',
+'versionable' => '0',
+'config' => 'a:0:{}',
+'assignments' => [
+[
+'id' => 356,
+'sort_order' => 212,
+'stream_id' => 64,
+'field_id' => 262,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '262',
+'namespace' => 'forms',
+'slug' => 'notification_name',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 262,
+'field_id' => 262,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_name.name',
+'placeholder' => 'anomaly.module.forms::field.notification_name.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_name.warning',
+'instructions' => 'anomaly.module.forms::field.notification_name.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 353,
+'assignment_id' => 356,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_name.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_name.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_name.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_name.instructions.notifications',
+],
+],
+],
+[
+'id' => 357,
+'sort_order' => 213,
+'stream_id' => 64,
+'field_id' => 263,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 0,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '263',
+'namespace' => 'forms',
+'slug' => 'notification_description',
+'type' => 'anomaly.field_type.textarea',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 263,
+'field_id' => 263,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_description.name',
+'placeholder' => 'anomaly.module.forms::field.notification_description.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_description.warning',
+'instructions' => 'anomaly.module.forms::field.notification_description.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 354,
+'assignment_id' => 357,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_description.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_description.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_description.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_description.instructions.notifications',
+],
+],
+],
+[
+'id' => 358,
+'sort_order' => 214,
+'stream_id' => 64,
+'field_id' => 264,
+'config' => 'a:0:{}',
+'unique' => 1,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '264',
+'namespace' => 'forms',
+'slug' => 'notification_slug',
+'type' => 'anomaly.field_type.slug',
+'config' => 'a:1:{s:7:"slugify";s:17:"notification_name";}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 264,
+'field_id' => 264,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_slug.name',
+'placeholder' => 'anomaly.module.forms::field.notification_slug.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_slug.warning',
+'instructions' => 'anomaly.module.forms::field.notification_slug.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 355,
+'assignment_id' => 358,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_slug.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_slug.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_slug.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_slug.instructions.notifications',
+],
+],
+],
+[
+'id' => 359,
+'sort_order' => 215,
+'stream_id' => 64,
+'field_id' => 265,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 0,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '265',
+'namespace' => 'forms',
+'slug' => 'notification_email_layout',
+'type' => 'anomaly.field_type.select',
+'config' => 'a:1:{s:7:"handler";s:6:"emails";}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 265,
+'field_id' => 265,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_email_layout.name',
+'placeholder' => 'anomaly.module.forms::field.notification_email_layout.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_email_layout.warning',
+'instructions' => 'anomaly.module.forms::field.notification_email_layout.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 356,
+'assignment_id' => 359,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_email_layout.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_email_layout.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_email_layout.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_email_layout.instructions.notifications',
+],
+],
+],
+[
+'id' => 360,
+'sort_order' => 216,
+'stream_id' => 64,
+'field_id' => 266,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 1,
+'versionable' => 0,
+'field' => [
+'id' => '266',
+'namespace' => 'forms',
+'slug' => 'notification_content',
+'type' => 'anomaly.field_type.wysiwyg',
+'config' => 'a:1:{s:13:"default_value";s:170:"<h3>{{ form.form_name }}</h3><p><a href="{{ url_previous() }}">{{ url_previous() }}</a></p><hr><p><em>{{ form.form_description }}</em><br>{{ forms_input(input)|raw }}</p>";}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 266,
+'field_id' => 266,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_content.name',
+'placeholder' => 'anomaly.module.forms::field.notification_content.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_content.warning',
+'instructions' => 'anomaly.module.forms::field.notification_content.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 357,
+'assignment_id' => 360,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_content.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_content.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_content.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_content.instructions.notifications',
+],
+],
+],
+[
+'id' => 361,
+'sort_order' => 217,
+'stream_id' => 64,
+'field_id' => 267,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 1,
+'versionable' => 0,
+'field' => [
+'id' => '267',
+'namespace' => 'forms',
+'slug' => 'notification_from_name',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 267,
+'field_id' => 267,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_from_name.name',
+'placeholder' => 'anomaly.module.forms::field.notification_from_name.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_from_name.warning',
+'instructions' => 'anomaly.module.forms::field.notification_from_name.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 358,
+'assignment_id' => 361,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_from_name.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_from_name.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_from_name.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_from_name.instructions.notifications',
+],
+],
+],
+[
+'id' => 362,
+'sort_order' => 218,
+'stream_id' => 64,
+'field_id' => 268,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '268',
+'namespace' => 'forms',
+'slug' => 'notification_from_email',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 268,
+'field_id' => 268,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_from_email.name',
+'placeholder' => 'anomaly.module.forms::field.notification_from_email.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_from_email.warning',
+'instructions' => 'anomaly.module.forms::field.notification_from_email.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 359,
+'assignment_id' => 362,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_from_email.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_from_email.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_from_email.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_from_email.instructions.notifications',
+],
+],
+],
+[
+'id' => 363,
+'sort_order' => 219,
+'stream_id' => 64,
+'field_id' => 269,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '269',
+'namespace' => 'forms',
+'slug' => 'notification_reply_to_name',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 269,
+'field_id' => 269,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_reply_to_name.name',
+'placeholder' => 'anomaly.module.forms::field.notification_reply_to_name.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_reply_to_name.warning',
+'instructions' => 'anomaly.module.forms::field.notification_reply_to_name.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 360,
+'assignment_id' => 363,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_reply_to_name.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_reply_to_name.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_reply_to_name.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_reply_to_name.instructions.notifications',
+],
+],
+],
+[
+'id' => 364,
+'sort_order' => 220,
+'stream_id' => 64,
+'field_id' => 270,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '270',
+'namespace' => 'forms',
+'slug' => 'notification_reply_to_email',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 270,
+'field_id' => 270,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_reply_to_email.name',
+'placeholder' => 'anomaly.module.forms::field.notification_reply_to_email.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_reply_to_email.warning',
+'instructions' => 'anomaly.module.forms::field.notification_reply_to_email.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 361,
+'assignment_id' => 364,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_reply_to_email.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_reply_to_email.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_reply_to_email.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_reply_to_email.instructions.notifications',
+],
+],
+],
+[
+'id' => 365,
+'sort_order' => 221,
+'stream_id' => 64,
+'field_id' => 271,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 1,
+'searchable' => 0,
+'translatable' => 1,
+'versionable' => 0,
+'field' => [
+'id' => '271',
+'namespace' => 'forms',
+'slug' => 'notification_subject',
+'type' => 'anomaly.field_type.text',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 271,
+'field_id' => 271,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.notification_subject.name',
+'placeholder' => 'anomaly.module.forms::field.notification_subject.placeholder',
+'warning' => 'anomaly.module.forms::field.notification_subject.warning',
+'instructions' => 'anomaly.module.forms::field.notification_subject.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 362,
+'assignment_id' => 365,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.notification_subject.label.notifications',
+'warning' => 'anomaly.module.forms::field.notification_subject.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.notification_subject.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.notification_subject.instructions.notifications',
+],
+],
+],
+[
+'id' => 366,
+'sort_order' => 222,
+'stream_id' => 64,
+'field_id' => 280,
+'config' => 'a:0:{}',
+'unique' => 0,
+'required' => 0,
+'searchable' => 0,
+'translatable' => 0,
+'versionable' => 0,
+'field' => [
+'id' => '280',
+'namespace' => 'forms',
+'slug' => 'include_attachments',
+'type' => 'anomaly.field_type.boolean',
+'config' => 'a:0:{}',
+'locked' => '1',
+'translations' => [
+[
+'id' => 280,
+'field_id' => 280,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::field.include_attachments.name',
+'placeholder' => 'anomaly.module.forms::field.include_attachments.placeholder',
+'warning' => 'anomaly.module.forms::field.include_attachments.warning',
+'instructions' => 'anomaly.module.forms::field.include_attachments.instructions',
+],
+],
+],
+'translations' => [
+[
+'id' => 363,
+'assignment_id' => 366,
+'locale' => 'en',
+'label' => 'anomaly.module.forms::field.include_attachments.label.notifications',
+'warning' => 'anomaly.module.forms::field.include_attachments.warning.notifications',
+'placeholder' => 'anomaly.module.forms::field.include_attachments.placeholder.notifications',
+'instructions' => 'anomaly.module.forms::field.include_attachments.instructions.notifications',
+],
+],
+],
+],
+'translations' => [
+[
+'id' => 67,
+'stream_id' => 64,
+'locale' => 'en',
+'name' => 'anomaly.module.forms::stream.notifications.name',
+'description' => 'anomaly.module.forms::stream.notifications.description',
+],
+],
+];
+
+    
+}

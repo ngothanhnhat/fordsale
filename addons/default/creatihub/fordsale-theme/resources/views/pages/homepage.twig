@@ -1,0 +1,14 @@
+{% for slider in page.slider_trang_chu %}
+    {{ slider.headline }}
+{% endfor %}
+
+
+<div class="cta">
+    {{ page.hinh_anh_cta.image | raw }}
+    {{ page.tieu_de_cta | raw }}
+</div>
+
+<div class="promotion">
+    {{ page.promotion_image.image | raw }}
+    {{ page.promotion_link | raw }}
+</div>

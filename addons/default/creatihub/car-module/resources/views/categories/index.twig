@@ -1,0 +1,38 @@
+{% extends "theme::layouts/default" %}
+{% set categories = entries('car', 'categories').get() %}
+{% block content %}
+
+    <div class="group-tabs">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#all" aria-controls="all" role="tab" data-toggle="tab">
+                       Tất cả
+                    </a>
+                </li>
+            {% for category in categories %}
+                <li role="presentation">
+                    <a href="#{{ category.slug }}" aria-controls="{{ category.slug }}" role="tab" data-toggle="tab">
+                       {{ category.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="all">
+                {% set types = entries('car', 'types').get() %}
+                {% include 'creatihub.module.car::categories/type' with {'types': types} %}
+            </div>
+            {% for category in categories %}
+                <div role="tabpanel" class="tab-pane" id="{{ category.slug }}">
+                    {% set types = entries('car', 'types').where('category_id', category.id).get() %}
+                    {% include 'creatihub.module.car::categories/type' with {'types': types} %}
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+{% endblock %}

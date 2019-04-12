@@ -1,0 +1,11 @@
+<div class="row">
+    {% for type in types %}
+        <div class="col-md-4">
+            <a href="{{ route('creatihub.module.car::type.index', [type.slug]) }}">
+                {{ type.image.image | raw }}
+            </a>
+            <span> {{ type.name }} </span>
+            <span> {{ type.price }} </span>
+        </div>
+    {% endfor %}
+</div>

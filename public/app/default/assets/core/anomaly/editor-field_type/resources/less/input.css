@@ -1,0 +1,33 @@
+.editor-field_type .codemirror {
+  position: relative;
+}
+.editor-field_type .codemirror > a {
+  top: 15px;
+  right: 15px;
+  opacity: 0.5;
+  z-index: 950;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 16px;
+  position: absolute;
+}
+.editor-field_type .codemirror > a:hover {
+  opacity: 1;
+}
+.editor-field_type .codemirror > a.expanded {
+  z-index: 2001;
+  position: fixed;
+}
+.has-danger .codemirror {
+  border: 1px solid #ff3160;
+}
+.has-success .codemirror {
+  border: 1px solid #47d165;
+}
+.has-warning .codemirror {
+  border: 1px solid #ff754b;
+}
+.has-info .codemirror {
+  border: 1px solid #11bef6;
+}
